@@ -17,9 +17,9 @@ import Card from './Card'
 
   //my code
 const CardList = ({robots}) => {
-  if(true) {
-    throw new Error('Noooo')
-  }
+  // if(true) {
+  //   throw new Error('Noooo')
+  // }
   return (
     <>
       {robots.map(({id, name, username, email}) => (
